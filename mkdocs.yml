@@ -23,7 +23,8 @@ markdown_extensions:
 
 plugins:
     - search
-    - macros
+    - macros:
+        include_dir: .
 
 extra:
     price: 12.50
