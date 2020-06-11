@@ -8,6 +8,9 @@ copyright: (c) 2020 Miro A
 nav:
     - Home: index.md
     - About: about.md
+    - Demo: markdown-demo.md
+    - Pandoc: pandoc-markdown.md
+    - Macros: macros-demo1.md
 theme: 
     name: material
 
@@ -20,4 +23,11 @@ markdown_extensions:
 
 plugins:
     - search
+    - macros
 
+extra:
+    price: 12.50
+    company:
+        name: Acme
+        address: Laurinska 8
+        website: https://www.acme.com/    
