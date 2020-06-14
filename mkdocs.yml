@@ -8,9 +8,12 @@ copyright: (c) 2020 Miro A
 nav:
     - Home: index.md
     - About: about.md
-    - Demo: markdown-demo.md
-    - Pandoc: pandoc-markdown.md
-    - Macros: macros-demo1.md
+    - Demo:
+        - Markdown: markdown-demo.md
+        - Pandoc: pandoc-markdown.md
+        - Macros: macros-demo1.md
+    - Example:
+        - Rancher: projectinfo-1.md
 theme: 
     name: material
 
