@@ -1,0 +1,11 @@
+image: miroadamy/mkdocs-material:latest
+
+pages:
+  script:
+  - mkdocs build
+  - mv site public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
