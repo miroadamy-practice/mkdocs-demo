@@ -1,5 +1,6 @@
 pages:
-  services: docker:dind
+  services: 
+    - docker:dind
   script:
   - docker run --rm -it -v $(pwd):/docs miroadamy/mkdocs-material:latest build
   - mv site public
