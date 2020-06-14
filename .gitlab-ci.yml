@@ -1,8 +1,7 @@
-image: miroadamy/mkdocs-material:latest
-
 pages:
+  services: docker:dind
   script:
-  - build
+  - docker run --rm -it -v $(pwd):/docs miroadamy/mkdocs-material:latest build
   - mv site public
   artifacts:
     paths:
