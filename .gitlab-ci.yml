@@ -2,7 +2,7 @@ image: miroadamy/mkdocs-material:latest
 
 pages:
   script:
-  - mkdocs build
+  - build
   - mv site public
   artifacts:
     paths:
